@@ -18,6 +18,7 @@ html {
 body {
   background-color: #f0f2f5;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 
 header {
@@ -162,11 +163,11 @@ td.description {
   color: var(--dark-blue)
 }
 
-td.income {
+.income {
   color: #12a454;
 }
 
-td.expense {
+.expense {
   color: #e92929;
 }
 
@@ -269,5 +270,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
